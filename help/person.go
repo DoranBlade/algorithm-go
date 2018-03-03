@@ -30,7 +30,6 @@ type PersonCompareContainer []Person
 
 func (p *PersonCompareContainer) More(i int, j int) bool {
 	return (*p)[i].age > (*p)[j].age
-
 }
 
 func (p *PersonCompareContainer) Len() int {
